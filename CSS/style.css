@@ -40,11 +40,9 @@ li:hover {
     transition: 0.5s ease;
     color: rgb(70, 75, 61);
     padding: 10px;
-    background-color: #505050;
+    background-color:greenyellow;
     border-radius: 3px;
 }
-
-
 
 nav ul {
     display: flex;
