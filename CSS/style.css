@@ -2,21 +2,8 @@ body {
     background-color: #343434;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
-    font-size: 125%
-}
-p{
-    color: whitesmoke;
-}
-
-h1{
-    color: whitesmoke;
-}
-h2{
-    color: whitesmoke;
-}
-
-li{
-    color: white;
+    font-size: 125%;
+    color: whitesmoke
 }
 
 #sectionConceitos ul {
@@ -37,17 +24,31 @@ footer {
     text-align: center;
 }
 
-
-nav > ul> li{
-    display: flex;
+li a {
     text-decoration: none;
-    justify-content: center;
+    padding: 10px;
+    color: greenyellow;
 }
 
-a{
-    color: rgb(28, 201, 28);
+li {
+    transition: 0.5s ease;
+    display: block;
+    margin: 2%
 }
-a:hover{
-    font-weight: bold;
-    color: rgb(236, 28, 28);
+
+li:hover {
+    transition: 0.5s ease;
+    color: rgb(70, 75, 61);
+    padding: 10px;
+    background-color: #505050;
+    border-radius: 3px;
 }
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
