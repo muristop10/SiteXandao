@@ -22,3 +22,17 @@ footer {
     border-radius: 2px;
     text-align: center;
 }
+
+
+nav > ul> li{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+a{
+    color: rgb(0, 132, 0);
+}
+a:hover{
+    color: rgb(171, 3, 3);
+}
