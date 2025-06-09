@@ -1,39 +1,47 @@
 body {
-    background-color: #343434;
+    background-color: #f0f7da;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
     font-size: 125%
 }
 p{
-    color: whitesmoke;
+    color: #1f192f;
 }
 
 h1{
-    color: whitesmoke;
+    color: #1f192f;
 }
 h2{
-    color: whitesmoke;
+    color: #2d6073;
+}
+h3{
+    color: #2d6073;
+}
+h4{
+    color: #2d6073;
 }
 
 li{
+    color: #1f192f;
+}
+img{
     color: white;
 }
-
 #sectionConceitos ul {
     list-style: square;
 }
 
 header {
-    background-color: #626262;
+    background-color: #b5e8c3;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 15px;
     text-align: center;
 }
 
 footer {
-    background-color: #626262;
+    background-color: #b5e8c3;
     padding: 3px;
-    border-radius: 2px;
+    border-radius: 15px;
     text-align: center;
 }
 
@@ -45,9 +53,28 @@ nav > ul> li{
 }
 
 a{
-    color: rgb(28, 201, 28);
+    color: #1f192f;
 }
 a:hover{
     font-weight: bold;
-    color: rgb(236, 28, 28);
+    color: #ca66ca;
+}
+
+#apiImagem{
+    background-color: #ceeed7;
+    border: solid;
+    border-width: 2px;
+    border-color: #65b8a6;
+    border-radius: 15px;
+    display: block;
+    justify-items: left;
+    margin-left: 3cm;
+}
+
+section{
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #65b8a6;
+    
 }
