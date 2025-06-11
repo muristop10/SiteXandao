@@ -4,6 +4,10 @@ body {
     padding: 15px;
     font-size: 125%
 }
+
+section {
+    margin: 15px;
+}
 p{
     color: #1f192f;
     margin-left: 10px;
