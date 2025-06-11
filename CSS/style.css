@@ -149,13 +149,16 @@ nav ul {
 }
 
 .diagrama-container {
-    border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
     margin: 20px auto;
     max-width: 600px;
     background: #b5e8c3;
     text-align: center;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #65b8a6;
 }
 
 .diagrama-titulo {
