@@ -165,24 +165,26 @@ nav ul {
 }
 
 .diagrama-container {
-  background: #b5e8c3;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
-  width: 100%;
-  text-align: center;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px auto;
+    max-width: 600px;
+    background: #b5e8c3;
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #65b8a6;
 }
 
 .diagrama-titulo {
-  font-family: Arial, sans-serif;
-  font-size: 24px;
-  margin-bottom: 20px;
+    font-size: 7mm;
+    margin-bottom: 10px;
+    color: #333;
 }
 
 .diagrama-conteudo {
-  font-family: monospace;
-  font-size: 16px;
-  white-space: pre-line;
-  line-height: 1.6;
+    font-family: monospace;
+    line-height: 1.6;
+    margin: 0;
 }
