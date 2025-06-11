@@ -6,6 +6,11 @@ body {
 }
 p{
     color: #1f192f;
+    margin-left: 10px;
+}
+
+#paragrafo_centro {
+    text-align: center;
 }
 
 h1{
@@ -13,12 +18,15 @@ h1{
 }
 h2{
     color: #2d6073;
+    margin-left: 10px;
 }
 h3{
     color: #2d6073;
+    margin-left: 10px;
 }
 h4{
     color: #2d6073;
+    margin-left: 10px;
 }
 
 li{
@@ -29,6 +37,7 @@ img{
     font-size: 125%;
     color: whitesmoke
 }
+
 #sectionConceitos ul {
     list-style: square;
 }
@@ -45,6 +54,8 @@ footer {
     padding: 3px;
     border-radius: 15px;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0%;
 }
 
 li a {
@@ -54,11 +65,21 @@ li a {
 }
 
 a:hover{
-    color: magenta;
+    color: whitesmoke;
     font-weight: bolder;
 }
+
 a{
     color: #1f192f;
+}
+
+.imagemAPI{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
 }
 
 #apiImagem{
@@ -67,9 +88,9 @@ a{
     border-width: 2px;
     border-color: #65b8a6;
     border-radius: 15px;
-    display: block;
-    justify-items: left;
-    margin-left: 3cm;
+    width: 100%;
+    height: 100%;
+
 }
 
 #frameworkimagem {
@@ -81,6 +102,8 @@ a{
     display: block;
     justify-items: left;
     margin-left: 1cm;
+    width: 1000px;
+    height: auto;
 }
 
 section{
@@ -88,7 +111,6 @@ section{
     border-radius: 10px;
     border-width: 1px;
     border-color: #65b8a6;
-    
 }
 
 li {
@@ -97,13 +119,18 @@ li {
     margin: 2%
 }
 
+.index {
+    text-decoration: none;
+}
+
 .index:hover {
     transition: 0.5s ease;
-    color: magenta;
+    color: whitesmoke;
     padding: 10px;
-    background-color: #2d6073;
+    background-color: #87997c;
     border-radius: 3px;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 nav ul {
@@ -111,8 +138,6 @@ nav ul {
     justify-content: center;
     list-style: none;
 }
-
-
 
 .diagrama-section {
   display: flex;
