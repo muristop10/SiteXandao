@@ -7,6 +7,9 @@ body {
 p{
     color: #1f192f;
     margin-left: 10px;
+}
+
+#paragrafo_centro {
     text-align: center;
 }
 
@@ -34,6 +37,7 @@ img{
     font-size: 125%;
     color: whitesmoke
 }
+
 #sectionConceitos ul {
     list-style: square;
 }
@@ -64,6 +68,7 @@ a:hover{
     color: whitesmoke;
     font-weight: bolder;
 }
+
 a{
     color: #1f192f;
 }
@@ -106,7 +111,6 @@ section{
     border-radius: 10px;
     border-width: 1px;
     border-color: #65b8a6;
-    
 }
 
 li {
@@ -118,6 +122,7 @@ li {
 .index {
     text-decoration: none;
 }
+
 .index:hover {
     transition: 0.5s ease;
     color: whitesmoke;
@@ -133,8 +138,6 @@ nav ul {
     justify-content: center;
     list-style: none;
 }
-
-
 
 .diagrama-section {
   display: flex;
